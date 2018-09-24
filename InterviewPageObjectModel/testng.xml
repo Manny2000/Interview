@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Interview Regression" parallel="classes"
+	thread-count="5">
+	<test name="Test">
+		<classes>
+			<class name="Test.Att_TestCase1" />
+			<class name="Test.Att_TestCase2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
